@@ -1,0 +1,28 @@
+<html> 
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<body  ng-app="myApp">
+<h2>Collaboration Fornt End</h2>
+<a href="#regis">Register</a>
+
+ <br>
+<div data-ng-view></div>
+<script type="text/javascript">
+var app = angular.module('myApp',["ngRoute"]);
+app.config(function($routeProvider) {
+	$routeProvider
+	.when('/regis',{
+		templateUrl: 'register/register.html',
+			controller:'UserController'
+	});
+});
+</script>
+    
+      <script src="register/UserController.js"></script>
+      <script src="register/UserService.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+127.0.0.1 - - [11/Oct/2016:14:31:37 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [11/Oct/2016:14:32:15 +0530] "GET /MyChatBackEnd/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [11/Oct/2016:14:33:59 +0530] "GET /MyChatBackEnd/WEB-INF/classes/com/niit/Mychatbackend/service/UserService.java HTTP/1.1" 404 996
+0:0:0:0:0:0:0:1 - - [11/Oct/2016:14:34:59 +0530] "GET /MyChatBackEnd/WEB-INF/classes/com/niit/Mychatbackend/service/UserService.java HTTP/1.1" 404 996
+0:0:0:0:0:0:0:1 - - [11/Oct/2016:14:35:01 +0530] "GET /MyChatBackEnd/WEB-INF/classes/com/niit/Mychatbackend/service/UserService.java HTTP/1.1" 404 996
+127.0.0.1 - - [11/Oct/2016:14:39:04 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [11/Oct/2016:14:39:05 +0530] "GET /MyChatBackEnd/WEB-INF/classes/com/niit/Mychatbackend/service/UserServiceImpl.java HTTP/1.1" 404 996
